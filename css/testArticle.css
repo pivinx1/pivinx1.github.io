@@ -24,4 +24,5 @@ footer {
     height: 50px;
     justify-self: baseline;
     padding: 10px;
+    width: fit-content;
 }
