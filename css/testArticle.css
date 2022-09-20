@@ -1,0 +1,27 @@
+body {
+    background-color: darkgray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    color: black;
+}
+
+p {
+    text-align: left;
+}
+
+header {
+    background-color: darkgray;
+    text-align: center;
+}
+
+footer {
+    background-color: darkgray;
+    text-align: left;
+    position: absolute;
+    bottom: 0px;
+    height: 50px;
+    justify-self: baseline;
+    padding: 10px;
+}
