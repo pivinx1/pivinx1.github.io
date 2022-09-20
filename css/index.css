@@ -8,7 +8,7 @@ h1 {
     color: black;
 }
 
-p {
+::content {
     text-align: left;
 }
 
@@ -24,5 +24,6 @@ footer {
     bottom: 0px;
     height: 50px;
     justify-self: baseline;
+    align-self: center;
     padding: 10px;
 }
