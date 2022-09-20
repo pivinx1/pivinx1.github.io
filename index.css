@@ -1,11 +1,22 @@
 
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 
 h1 {
     color: green;
-    text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif
 }
 
 p {
+    text-align: left;
+}
+
+header {
+    background-color: darkgray;
+    text-align: center;
+}
+
+footer {
+    background-color: darkgray;
     text-align: left;
 }
