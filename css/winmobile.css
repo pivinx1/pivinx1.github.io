@@ -1,0 +1,13 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: gainsboro;
+}
+
+#content {
+    text-align: left;
+}
+
+header {
+    background-color: darkgray;
+    text-align: left;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Pivin's Scrapyard - Windows Mobile</title>
+        <link rel="stylesheet" href="/css/winmobile.css">
+    </head>
+    <body>
+        <header>
+            <h2>Building Apps for Windows Mobile</h2>
+            <p>Go back to the <a href="/index.html">main page</a></p>
+        </header>
+        <div id="content">
+            <p>Building stuff for this platform sure is an interesting task, mainly because knowledge for it is nowadays quite scarce.</p>
+            <p>Probably the first thing to do would be to obtain some tools.</p>
+            <div id="checklist">
+                <h3>You will need:</h3>
+                <ul>
+                    <li>
+                        Any version of Visual Studio between 2005 and 2010 (Visual Studio 2008 worked best for me), must be the Professional version.
+                        You can get it from the Internet Archive <a href="https://archive.org/download/dev-microsoft-visual-studio-2005-2015-Pro/en_visual_studio_2008_professional_x86_dvd_x14-26326.iso">here</a>.
+                    </li>
+                    <li>
+                        An SDK (Software Development Kit) for your version of Windows Mobile of choice.
+                        Do note that versions targeted towards older versions of Windows Mobile <em>should</em> work on newer versions.
+                        You can get one from the Internet Archive <a href="https://archive.org/details/WMSDK">here</a>.
+                    </li>
+                    <li>The .NET <strong>Compact</strong> Framework 2.0 installed on your development machine</li>
+                </ul>
+                <p>You can omit any item on the list below as needed.</p>
+                <h3>Additionally:</h3>
+                <ul>
+                    <li>A Windows Mobile device of choice (mine was the HP iPAQ 214)</li>
+                    <li>ActiveSync (on Windows XP and older) or Windows Mobile Device Center (on Windows Vista and 7) for syncing your program onto your device of choice</li>
+                </ul>
+                <p>You don't need to have a Windows Mobile device on hand.</p>
+                <p>Visual Studio 2008 comes with the Device Emulator, which can emulate a Windows Mobile device as needed.</p>
+                <p>Your SDK should come with the ROM images for the Device Emulator by default.</p>
+            </div>
+            <div id="code">
+                <h3>The Code</h3>
+                <p>As a matter of fact, writing code for the Windows Mobile platform at it's base is not much different from writing code for the Win32 platform.</p>
+                <p>Windows Mobile is based on Windows CE, but it supports both the Win32 API but in addition also supports the WinCE API.</p>
+                <p>Because of this, using the Win32 API for writing your app will allow an user to run your app on a Windows PC as well.</p>
+                <p>However, do note that some file-related things may become inherently broken due to fundamental differences in the Windows filesystem.</p>
+            </div>
+        </div>
+    </body>
+</html>
